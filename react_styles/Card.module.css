@@ -1,0 +1,7 @@
+/* // Creating CSS Modules is useful to assign an ID for our elements
+ */
+.card {
+    padding: 14px;
+    background: pink;
+    color: rgb(255, 128, 149);
+}
