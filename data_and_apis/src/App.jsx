@@ -1,8 +1,8 @@
 import StaticComponent from './components/StaticComponent/StaticComponent'
-import { useState } from 'react'
 import './App.css'
 import UserList from './components/UserList/UserList'
 import UserListWithLoading from './components/UserListWithLoading/UserListWithLoading'
+import FilterUsers from './components/FilterUsers/FilterUsers'
 
 function App() {
   return (
@@ -10,7 +10,10 @@ function App() {
       <h1>Hello</h1>
       <StaticComponent />
 
-      <UserListWithLoading />  
+      {/* <UserListWithLoading />  */}
+
+      <FilterUsers />
+
 
       {/* <UserList />  */}
     </>
