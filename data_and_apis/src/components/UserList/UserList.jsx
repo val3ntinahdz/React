@@ -11,7 +11,7 @@ const UserList = () => {
 
     }, []) // The effect will only execute once
 
-    return(
+    return (
         <div>
             <h2>Users list</h2>
             <ul>
